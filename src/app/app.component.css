@@ -1,0 +1,34 @@
+/* Container centrant le formulaire */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Couleur de fond différente du blanc */
+}
+
+.form-container {
+  background-color: #424242; /* Couleur de fond du formulaire */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Stylisation des labels */
+.mat-form-field-label {
+  color: white !important;
+}
+
+.mat-form-field-label.mat-focused {
+  color: violet !important;
+}
+
+/* Stylisation du bouton sans violet */
+button.mat-raised-button {
+  background-color: #3f51b5; /* Utilisez une autre couleur que le violet */
+  color: white;
+}
+
+button.mat-raised-button:hover {
+  background-color: #303f9f; /* Couleur au survol */
+}
